@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="Universities">
+        <item android:layout_height="wrap_content" android:id="@+id/uni1" android:layout_width="wrap_content">Bennett College</item>
+        <item android:layout_height="wrap_content" android:id="@+id/uni2" android:layout_width="wrap_content">NC</item>
+    </string-array>
+    
+</resources>

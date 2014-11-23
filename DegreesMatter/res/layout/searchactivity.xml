@@ -13,4 +13,22 @@
         <requestFocus />
     </EditText>
 
+    <RadioButton
+        android:id="@+id/radioButtonYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/radioButtonNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
 </LinearLayout>

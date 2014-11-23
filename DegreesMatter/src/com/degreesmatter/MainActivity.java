@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
 
 
 public class MainActivity extends Activity {
@@ -16,6 +18,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         _context=this.getApplicationContext();
         setContentView(R.layout.activity_main);
+        findViewById(R.id.begin).setOnClickListener(new OnClickListener(){
+        	public void onClick(View v){
+        		Intent myIntent=new Intent(_context, com.degreesmatter.SearchActivity.class);
+        	}
+        });
     }
 
 
@@ -35,10 +42,10 @@ public class MainActivity extends Activity {
         if (id == R.id.action_settings) {
             return true;
         }
-        if (id==R.id.start){
+        if (id==R.id.begin){
         	Intent myintent= new Intent(_context,com.degreesmatter.SearchActivity.class);
         	startActivity(myintent);
-        	return=true;
+        	return true;
         }
         return super.onOptionsItemSelected(item);
     }

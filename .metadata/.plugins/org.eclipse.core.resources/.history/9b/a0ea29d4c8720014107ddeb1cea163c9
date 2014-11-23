@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="Universities">
+        <item android:layout_height="wrap_content" android:id="@+id/uni1" android:layout_width="wrap_content">Bennett College</item>
+        <item android:layout_height="wrap_content" android:id="@+id/uni2" android:layout_width="wrap_content">Elon University</item>
+        <item android:layout_height="wrap_content" android:id="@+id/uni3" android:layout_width="wrap_content">Greensboro College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni4" android:layout_width="wrap_content">Guilford College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni5" android:layout_width="wrap_content">High Point University</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni6" android:layout_width="wrap_content">John Wesley College (North Carolina)</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni7" android:layout_width="wrap_content">North Carolina Agricultural and Technical State University</item>		        
+    	<item android:layout_height="wrap_content" android:id="@+id/uni8" android:layout_width="wrap_content">University of North Carolina School of the Arts</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni9" android:layout_width="wrap_content">University of North Carolina at Greensboro</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni10" android:layout_width="wrap_content">Salem College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni11" android:layout_width="wrap_content">Wake Forest University</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni12" android:layout_width="wrap_content">Winston-Salem State University</item>
+    </string-array>
+    <string-array name="Community Colleges">
+        <item android:layout_height="wrap_content" android:id="@+id/comm1" android:layout_width="wrap_content">Alamance Community College</item>
+        <item android:layout_height="wrap_content" android:id="@+id/comm2" android:layout_width="wrap_content">Davidson County Community College</item>
+        <item android:layout_height="wrap_content" android:id="@+id/comm3" android:layout_width="wrap_content">Forsyth Technical Community College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/comm4" android:layout_width="wrap_content">Guilford Technical Community College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/comm5" android:layout_width="wrap_content">Randolph Community College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/comm6" android:layout_width="wrap_content">Rockingham Community College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/comm7" android:layout_width="wrap_content">Surry Community College</item>		        
+
+</string-array>
+        
+    
+</resources>

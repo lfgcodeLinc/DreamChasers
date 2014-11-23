@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="Universities">
+        <item android:layout_height="wrap_content" android:id="@+id/uni1" android:layout_width="wrap_content">Bennett College</item>
+        <item android:layout_height="wrap_content" android:id="@+id/uni2" android:layout_width="wrap_content">Elon University</item>
+        <item android:layout_height="wrap_content" android:id="@+id/uni3" android:layout_width="wrap_content">Greensboro College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni4" android:layout_width="wrap_content">Guilford College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni5" android:layout_width="wrap_content">High Point University</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni6" android:layout_width="wrap_content">John Wesley College (North Carolina)</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni7" android:layout_width="wrap_content">North Carolina Agricultural and Technical State University</item>		        
+    	<item android:layout_height="wrap_content" android:id="@+id/uni8" android:layout_width="wrap_content">University of North Carolina School of the Arts</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni9" android:layout_width="wrap_content">University of North Carolina at Greensboro</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni10" android:layout_width="wrap_content">Salem College</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni11" android:layout_width="wrap_content">Wake Forest University</item>
+		<item android:layout_height="wrap_content" android:id="@+id/uni12" android:layout_width="wrap_content">Winston-Salem State University</item>
+    
+</item></string-array>
+    
+</resources>
