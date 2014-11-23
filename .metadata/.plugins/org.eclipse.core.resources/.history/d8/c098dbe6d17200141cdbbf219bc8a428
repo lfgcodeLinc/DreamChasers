@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 
 
 public class MainActivity extends Activity {
@@ -19,21 +18,12 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         _context=this.getApplicationContext();
         setContentView(R.layout.activity_main);
-        final Button button = (Button) findViewById(R.id.begin);
-        button.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				Intent myintent= new Intent(_context,com.degreesmatter.SearchActivity.class);
-	        	startActivity(myintent);
-				// TODO Auto-generated method stub
-				
-			}
- 	
-                // Perform action on click
-        });
+        findViewById(R.id.begin).setOnClickListener(new OnClickListener(){
+        	public void onClick(View v){
+        		Intent myIntent=new Intent(_context, com.degreesmatter.SearchActivity.class);
         	}
-    
+        });
+    }
 
 
     @Override
