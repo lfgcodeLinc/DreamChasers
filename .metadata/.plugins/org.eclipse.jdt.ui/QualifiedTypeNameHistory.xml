@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="com.degreesmatter.SearchActivity"/>
 <fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
 </qualifiedTypeNameHistroy>

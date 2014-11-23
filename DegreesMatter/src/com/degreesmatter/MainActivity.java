@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         _context=this.getApplicationContext();
         setContentView(R.layout.activity_main);
+        
         final Button button = (Button) findViewById(R.id.begin);
         button.setOnClickListener(new View.OnClickListener() {
 
